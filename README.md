@@ -7,7 +7,7 @@ This project analyzes the impact of Virtual Reality (VR) on education using a da
 The dataset used for this analysis is the **Impact of Virtual Reality on Education** dataset, which includes various attributes related to students' experiences and outcomes with VR in educational contexts.
 
 - **Source**: [Kaggle - Impact of Virtual Reality on Education](https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset)
-- **File Format**: CSV (or specify another format if applicable)
+- **File Format**: CSV
 
 ## Project Structure
 spark-vr-education/
