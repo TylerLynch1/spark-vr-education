@@ -37,16 +37,13 @@ The required Python packages are listed in `requirements.txt`. You can install t
 ```bash
 pip install -r requirements.txt
 
-Usage
-1. Clone the repository:
 git clone https://github.com/TylerLynch1/spark-vr-education.git
 cd spark-vr-education
 
-2. Run the preprocessing script:
 python src/preprocessing.py
 
-3. Run the analysis script:
 python src/analysis.py
+```
 
 Performance Comparison
 The project includes a performance comparison of the analysis running on one VM versus two VMs. Performance metrics such as execution time and resource usage will be documented.
