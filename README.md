@@ -12,11 +12,51 @@ The dataset used for this analysis is the **Impact of Virtual Reality on Educati
 ## Project Structure
 spark-vr-education/
 │ 
-├── data/ # Folder containing the dataset
-│ └── dataset.csv # The dataset file 
-├── src/ # Source code for analysis 
-│ ├── preprocessing.py # Data preprocessing scripts 
-│ └── analysis.py # Statistical analysis scripts 
-├── requirements.txt # Python package dependencies 
-├── README.md # Project documentation 
-└── .gitignore # Files and directories to ignore
+├── data/                   # Folder containing the dataset
+│   └── dataset.csv         # The dataset file 
+│ 
+├── src/                    # Source code for analysis 
+│   ├── preprocessing.py     # Data preprocessing scripts 
+│   └── analysis.py         # Statistical analysis scripts 
+│ 
+├── requirements.txt        # Python package dependencies 
+├── README.md               # Project documentation 
+├── LICENSE                 # License information for the project
+└── .gitignore              # Files and directories to ignore
+
+## Installation
+To run this project, you need to have the following software installed:
+
+- Python 3.x
+- Apache Spark
+- Git
+
+### Python Packages
+The required Python packages are listed in `requirements.txt`. You can install them using:
+
+```bash
+pip install -r requirements.txt
+
+Usage
+1. Clone the repository:
+git clone https://github.com/TylerLynch1/spark-vr-education.git
+cd spark-vr-education
+
+2. Run the preprocessing script:
+python src/preprocessing.py
+
+3. Run the analysis script:
+python src/analysis.py
+
+Performance Comparison
+The project includes a performance comparison of the analysis running on one VM versus two VMs. Performance metrics such as execution time and resource usage will be documented.
+
+Contributions
+This project was made be Tyler Lynch for the Fall 2024 - SAT 5165 course. 
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgments
+Kaggle for providing the dataset.
+Apache Spark community for their documentation and resources.
