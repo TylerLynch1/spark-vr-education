@@ -48,6 +48,8 @@ python src/analysis.py
 Performance Comparison
 The project includes a performance comparison of the analysis running on one VM versus two VMs. Performance metrics such as execution time and resource usage will be documented.
 
+The files vr_education.py and vr_education_hadoop.py are the same except for the file path.
+
 Contributions
 This project was made be Tyler Lynch for the Fall 2024 - SAT 5165 course. 
 
