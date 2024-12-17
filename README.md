@@ -8,8 +8,8 @@ This project analyzes the impact of Virtual Reality (VR) on education using PySp
 - Identifies features with the strongest correlation to the target variable.
 - Finds the pair of variables with the strongest correlation.
 2. Regression Analysis
-- Uses linear regression topredict the perceived effectiveness of VR based on highly correlated features.
-- Evaluates the regression model using RootMeanSquaredError (RMSE).
+- Uses linear regression to predict the perceived effectiveness of VR based on highly correlated features.
+- Evaluates the regression model using Root Mean Squared Error (RMSE).
 3. Logistic Regression Classification
 - Classifies improvements in learning outcomes based on selected features.
 - Evaluates the classification model's accuracy using a Multiclass Classification Evaluator.
